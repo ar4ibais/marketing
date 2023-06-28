@@ -1,0 +1,13 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_235">
+			<rect id="monitor" width="50.000000" height="50.000000" fill="white"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip1_235)">
+		<path id="Shape" d="M46.6578 35.8298L46.6578 5.84229L3.34064 5.84229L3.34064 35.8298L24.1656 35.8298L24.1656 42.4939L18.3344 42.4939L18.3344 44.1594L31.6625 44.1594L31.6625 42.4939L25.8313 42.4939L25.8313 35.8298L46.6578 35.8298ZM44.9922 7.50635L5.00783 7.50635L5.00783 34.1626L44.9922 34.1626L44.9922 7.50635Z" clip-rule="evenodd" fill-rule="evenodd" fill="#333333" fill-opacity="1.000000"/>
+	</g>
+</svg>
