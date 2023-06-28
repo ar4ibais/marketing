@@ -70,6 +70,28 @@ body {
   padding: 0 10px;
 }
 
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -1.6500000953674316px;
+  color: #242121;
+  padding-bottom: 18px;
+  position: relative;
+  align-self: flex-start;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #FCBB08;
+}
+
 .header__top-inner {
   padding-bottom: 29px;
   display: flex;
@@ -142,4 +164,24 @@ body {
 
 .header__icon {
   margin-bottom: 62px;
+}
+
+
+.about {
+  background-color: #F6F8FA;
+  padding: 150px 0 144px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-size: 48px;
+}
+
+.about__text p{
+  max-width: 770px;
+  margin-bottom: 16px;
 }
