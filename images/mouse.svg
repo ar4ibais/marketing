@@ -1,0 +1,14 @@
+<svg width="26.000000" height="43.000000" viewBox="0 0 26 43" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_258">
+			<rect id="mouse" width="26.000000" height="43.000000" fill="white"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip1_258)">
+		<path id="Oval 8" d="M13 14C14.6569 14 16 12.6567 16 11C16 9.34326 14.6569 8 13 8C11.3431 8 10 9.34326 10 11C10 12.6567 11.3431 14 13 14Z" fill-rule="evenodd" fill="#FFFFFF"/>
+		<rect id="Rectangle 52" x="1.000000" y="1.000000" rx="12.000000" width="24.000000" height="41.000000" stroke="#FFFFFF" stroke-width="2.000000"/>
+	</g>
+</svg>
