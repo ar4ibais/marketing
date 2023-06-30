@@ -1,5 +1,4 @@
 $(function () {
-    var mixer = mixitup('.portfolio__content');
 
     Fancybox.bind()
 
@@ -15,5 +14,15 @@ $(function () {
                 <img src="images/arrow-right.svg" alt="">
             </button>
         `
-    })
+    });
+
+    $('.menu__btn').on('click', function() {
+        $('.header').toggleClass('header--active');
+        $('body').toggleClass('lock');
+    });
+
+
+
+    var mixer = mixitup('.portfolio__content');
+
 });
