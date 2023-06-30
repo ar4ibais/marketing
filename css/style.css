@@ -120,6 +120,7 @@ body {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.6px;
   transition: all .3s;
+  border-bottom: 2px solid transparent;
 }
 
 .menu__list-link:hover {
@@ -306,4 +307,156 @@ body {
 
 .magic__text p {
   margin-bottom: 25px;
+}
+
+.portfolio {
+  padding: 140px 0 165px;
+}
+
+.portfolio__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.portfolio__content {
+  column-count: 4;
+  column-gap: 22px;
+  margin-bottom: 70px;
+}
+
+.portfolio__btn {
+  background-color: transparent;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #333;
+  padding: 0 5px 5px;
+  transition: all .3s;
+  border-bottom: 2px solid transparent;
+}
+
+.portfolio__btn.mixitup-control-active {
+  border-bottom: 2px solid #FCBB08;
+}
+
+.portfolio__btn:hover {
+  border-bottom: 2px solid #FCBB08;
+  cursor: pointer;
+}
+
+.portfolio__btn + .portfolio__btn {
+  margin-left: 25px;
+}
+
+.portfolio__item {
+  margin-bottom: 22px;
+  position: relative;
+}
+
+.portfolio__item img {
+  width: 100%;
+}
+
+.portfolio__item:hover .portfolio__item-link {
+  opacity: 1;
+}
+
+.portfolio__item-link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1.399999976158142px;
+  color: #FFFFFF;
+  background-color: #4C4A4A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 12px solid rgba(255, 255, 255, 0.15);
+  z-index: 10;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.portfolio__add {
+  display: block;
+  color: #242121;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1.2000000476837158px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 42px 15px 41px;
+  background-color: #F6F8FA;
+  margin-bottom: 130px;
+}
+
+.portfolio__blockquote {
+  max-width: 650px;
+  margin: 0 auto 148px;
+  color: #242121;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.portfolio__blockquote-author {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+  color: #9E9E9E;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.portfolio__video {
+  background-image: url('../images/video-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 325px;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 165px;
+}
+
+.portfolio__numbers {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.portfolio__numbers-item {
+  color: #242121;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73px;
+}
+
+.portfolio__numbers-item span {
+  display: block;
+  margin-top: 10px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
 }
