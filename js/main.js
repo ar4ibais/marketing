@@ -13,7 +13,15 @@ $(function () {
             <button type="button" class="slick-next">
                 <img src="images/arrow-right.svg" alt="">
             </button>
-        `
+        `,
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
     });
 
     $('.menu__btn').on('click', function() {
