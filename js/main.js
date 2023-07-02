@@ -24,10 +24,12 @@ $(function () {
         ]
     });
 
-    $('.menu__btn').on('click', function() {
+    $('.menu__btn, .menu a').on('click', function() {
         $('.header').toggleClass('header--active');
         $('body').toggleClass('lock');
     });
+
+
 
 
 
